@@ -1,0 +1,39 @@
+{
+  "name": "chainlink-hardhat-box",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "hardhat test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "echo 'Make sure to run `npx hardhat mint-nft --network localhost --address 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266` (replace that example address with your address)' && hardhat node"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^3.2.1",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "hardhat-deploy": "^0.7.0-beta.39",
+    "solidity-coverage": "^0.7.21",
+    "web3": "^1.2.9"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.2",
+    "@chainlink/test-helpers": "0.0.5",
+    "@chainlink/token": "^1.1.0",
+    "@nomiclabs/hardhat-truffle5": "^2.0.0",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.22.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "transform": "^1.1.2"
+  },
+  "mocha": {
+    "timeout": 10000000
+  }
+}

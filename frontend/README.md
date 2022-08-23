@@ -1,6 +1,12 @@
 ## Getting Started
 
-First, run the development server:
+Dependencies can be installed using yarn lock through 
+
+```bash
+yarn
+```
+
+To run the development server:
 
 ```bash
 npm run dev
